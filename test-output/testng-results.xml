@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-29T13:19:08Z" name="Default suite" finished-at="2021-03-29T13:19:34Z" duration-ms="26201">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-29T13:19:08Z" name="Default test" finished-at="2021-03-29T13:19:34Z" duration-ms="26201">
+      <class name="com.homework.testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:08Z" name="setUpClass" finished-at="2021-03-29T13:19:08Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:15Z" duration-ms="7240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:19Z" duration-ms="3681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Master Bar >>> elements validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:21Z" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["My Profile >>> details functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:26Z" duration-ms="4882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["My Profile >>> photo update functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:27Z" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Account Settings"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:28Z" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Purchases"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:29Z" duration-ms="745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Security"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:29Z" duration-ms="738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Privacy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:31Z" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Manage Blogs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:31Z" duration-ms="760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Notification Settings"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:32Z" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Blocked Sites"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:33Z" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sidebar menu link validation >>> Get Apps"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-29T13:19:33Z" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Broken links validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:33Z" name="tearDown" finished-at="2021-03-29T13:19:33Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.homework.testRunner.TestRunner@409c54f]" started-at="2021-03-29T13:19:33Z" name="tearDownClass" finished-at="2021-03-29T13:19:34Z" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.homework.testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
