@@ -1,4 +1,4 @@
-package com.homework.testRunner;
+package com.homework.runner;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(features = {"src//test//resources//features"}
 , glue = {"com.homework.stepdefinition"}
 ,plugin = {"pretty", "html:target/cucumber-default-reports", "json:target/cucumber.json",}
-, tags = { "@WORDPRESS_SMOKE_MEPAGE" }
+, tags = { "@login" }
 , monochrome = true
 , strict = true
 , dryRun = false)

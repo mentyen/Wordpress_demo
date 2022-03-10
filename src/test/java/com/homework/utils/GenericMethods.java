@@ -17,7 +17,6 @@ import java.util.Set;
 import java.util.logging.Logger;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -28,7 +27,6 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
@@ -49,7 +47,7 @@ public class GenericMethods {
 				.ignoring(ElementNotSelectableException.class).ignoring(StaleElementReferenceException.class)
 				.ignoring(ElementClickInterceptedException.class).ignoring(ElementNotInteractableException.class);
 		jsExecutor = (JavascriptExecutor) driver;
-		PropertyConfigurator.configure("src/test/resources/log4j.properties");
+		//PropertyConfigurator.configure("src/test/resources/log4j.properties");
 	}
 
 	protected void log(String msg, boolean isScreenshotRequired) {

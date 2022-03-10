@@ -32,8 +32,7 @@ public class WP_StepDefinition extends AbstractSteps{
 
 	@Then("Verify user lands on home page")
 	public void verify_user_lands_on_home_page() {
-		pageObjectManager.getMePage().isUserLandsOnMePage();
-		
+		pageObjectManager.getMePage().isUserLandsOnMePage();		
 	}
 	
 	@Then("Verify all elements populating on Master Bar")

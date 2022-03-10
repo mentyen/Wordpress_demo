@@ -20,23 +20,19 @@ public class WP_Login_Page extends GenericMethods{
 	By loginButton=By.cssSelector("button[type='submit']");
 
 	public void setUserName(String asString) {
-		setUserName(username,asString);
-		//hitEnter();	
+		setUserName(username,asString);		
 		
 	}
 	public void tapSubmitButton() {
-		clickElement(loginButton,"Login button");
-		
+		clickElement(loginButton,"Login button");		
 	}
 
 	public void setPassword(String asString) {
-		setPassword(password,asString);
-		
+		setPassword(password,asString);		
 	}
 
 	public void tapLoginButton() {
-		clickElement(loginButton,"Login button");
-		
+		clickElement(loginButton,"Login button");		
 	}	
 	
 	

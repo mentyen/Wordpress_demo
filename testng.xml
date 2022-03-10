@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="DEMO">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.nextgen.stepdefinition.DefaultStepDefinition"/>
-      <class name="com.nextgen.stepdefinition.AbstractSteps"/>
-      <class name="com.nextgen.utils.ExtentTestManager"/>
+      <class name="com.homework.stepdefinition.DefaultStepDefinition"/>
+      <class name="com.homework.stepdefinition.AbstractSteps"/> 
+      <class name="com.homework.runner.TestRunner"/>   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

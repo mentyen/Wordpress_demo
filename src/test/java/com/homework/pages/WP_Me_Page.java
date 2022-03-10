@@ -78,7 +78,13 @@ public class WP_Me_Page extends GenericMethods {
 
 	@SuppressWarnings("deprecation")
 	public void isUserLandsOnMePage() {
-		Assert.assertTrue(isDisplayed(profileHeader));
+		if (isDisplayed(profileHeader)) {
+			log("User lands on home page", true);
+			Assert.assertTrue(isDisplayed(profileHeader));
+		} else {
+			logFail("User lands on home page", true);
+			Assert.assertTrue(false);
+		}
 
 	}
 
@@ -291,6 +297,6 @@ public class WP_Me_Page extends GenericMethods {
 
 	public void isBrokenLinks() {
 		isAnyBrokenLinks(ConfigsReader.getAsString("ApplicationUrl"));
-		
+
 	}
 }
